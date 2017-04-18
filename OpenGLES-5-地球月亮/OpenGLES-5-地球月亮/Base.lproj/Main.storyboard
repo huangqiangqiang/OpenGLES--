@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pOG-e4-uCT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GLKit View Controller-->
+        <scene sceneID="yVj-sz-BnJ">
+            <objects>
+                <glkViewController preferredFramesPerSecond="30" id="pOG-e4-uCT" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gif-Xw-aK1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fhv-mN-2ag"/>
+                    </layoutGuides>
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" id="3w4-rK-yhb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="d25-kE-yd8">
+                                <rect key="frame" x="35" y="28" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EQw-D5-WAs">
+                                <rect key="frame" x="104" y="28" width="51" height="31"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wuf-kp-FAi">
+                                <rect key="frame" x="178" y="28" width="51" height="31"/>
+                            </switch>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="EQw-D5-WAs" firstAttribute="leading" secondItem="d25-kE-yd8" secondAttribute="trailing" constant="20" id="1ZH-Uq-AnT"/>
+                            <constraint firstItem="EQw-D5-WAs" firstAttribute="top" secondItem="Gif-Xw-aK1" secondAttribute="bottom" constant="10" id="DWy-EY-Pfh"/>
+                            <constraint firstItem="wuf-kp-FAi" firstAttribute="leading" secondItem="EQw-D5-WAs" secondAttribute="trailing" constant="20" id="T6v-cP-J1t"/>
+                            <constraint firstItem="wuf-kp-FAi" firstAttribute="top" secondItem="Gif-Xw-aK1" secondAttribute="bottom" constant="10" id="f0R-dk-DoG"/>
+                            <constraint firstItem="d25-kE-yd8" firstAttribute="leading" secondItem="3w4-rK-yhb" secondAttribute="leadingMargin" constant="20" id="iMr-AD-bVc"/>
+                            <constraint firstItem="d25-kE-yd8" firstAttribute="top" secondItem="Gif-Xw-aK1" secondAttribute="bottom" constant="10" id="q7R-et-JjP"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="delegate" destination="pOG-e4-uCT" id="XyL-pC-kGQ"/>
+                        </connections>
+                    </glkView>
+                    <connections>
+                        <outlet property="switchButton" destination="d25-kE-yd8" id="8QZ-m7-a1R"/>
+                        <outlet property="switchSence" destination="EQw-D5-WAs" id="6ma-HL-QNr"/>
+                        <outlet property="switchShowMoon" destination="wuf-kp-FAi" id="Pfo-HV-DCk"/>
+                    </connections>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VKP-q0-MDw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="590" y="-298"/>
+        </scene>
+    </scenes>
+</document>

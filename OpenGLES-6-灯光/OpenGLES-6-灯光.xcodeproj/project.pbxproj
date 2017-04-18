@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B88AE91E87C6A900177498 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B88AE81E87C6A900177498 /* main.m */; };
+		53B88AEC1E87C6A900177498 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B88AEB1E87C6A900177498 /* AppDelegate.m */; };
+		53B88AEF1E87C6A900177498 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B88AEE1E87C6A900177498 /* ViewController.m */; };
+		53B88AF21E87C6A900177498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B88AF01E87C6A900177498 /* Main.storyboard */; };
+		53B88AF41E87C6A900177498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B88AF31E87C6A900177498 /* Assets.xcassets */; };
+		53B88AF71E87C6A900177498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B88AF51E87C6A900177498 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53B88AE41E87C6A900177498 /* OpenGLES-6-灯光.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES-6-灯光.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B88AE81E87C6A900177498 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B88AEA1E87C6A900177498 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53B88AEB1E87C6A900177498 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53B88AED1E87C6A900177498 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53B88AEE1E87C6A900177498 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53B88AF11E87C6A900177498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53B88AF31E87C6A900177498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53B88AF61E87C6A900177498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53B88AF81E87C6A900177498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B88AE11E87C6A900177498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B88ADB1E87C6A900177498 = {
+			isa = PBXGroup;
+			children = (
+				53B88AE61E87C6A900177498 /* OpenGLES-6-灯光 */,
+				53B88AE51E87C6A900177498 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53B88AE51E87C6A900177498 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B88AE41E87C6A900177498 /* OpenGLES-6-灯光.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B88AE61E87C6A900177498 /* OpenGLES-6-灯光 */ = {
+			isa = PBXGroup;
+			children = (
+				53B88AEA1E87C6A900177498 /* AppDelegate.h */,
+				53B88AEB1E87C6A900177498 /* AppDelegate.m */,
+				53B88AED1E87C6A900177498 /* ViewController.h */,
+				53B88AEE1E87C6A900177498 /* ViewController.m */,
+				53B88AF01E87C6A900177498 /* Main.storyboard */,
+				53B88AF31E87C6A900177498 /* Assets.xcassets */,
+				53B88AF51E87C6A900177498 /* LaunchScreen.storyboard */,
+				53B88AF81E87C6A900177498 /* Info.plist */,
+				53B88AE71E87C6A900177498 /* Supporting Files */,
+			);
+			path = "OpenGLES-6-灯光";
+			sourceTree = "<group>";
+		};
+		53B88AE71E87C6A900177498 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B88AE81E87C6A900177498 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B88AE31E87C6A900177498 /* OpenGLES-6-灯光 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B88AFB1E87C6A900177498 /* Build configuration list for PBXNativeTarget "OpenGLES-6-灯光" */;
+			buildPhases = (
+				53B88AE01E87C6A900177498 /* Sources */,
+				53B88AE11E87C6A900177498 /* Frameworks */,
+				53B88AE21E87C6A900177498 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES-6-灯光";
+			productName = "OpenGLES-6-灯光";
+			productReference = 53B88AE41E87C6A900177498 /* OpenGLES-6-灯光.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B88ADC1E87C6A900177498 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "黄强强";
+				TargetAttributes = {
+					53B88AE31E87C6A900177498 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CZNJZR433P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53B88ADF1E87C6A900177498 /* Build configuration list for PBXProject "OpenGLES-6-灯光" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B88ADB1E87C6A900177498;
+			productRefGroup = 53B88AE51E87C6A900177498 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B88AE31E87C6A900177498 /* OpenGLES-6-灯光 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B88AE21E87C6A900177498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B88AF71E87C6A900177498 /* LaunchScreen.storyboard in Resources */,
+				53B88AF41E87C6A900177498 /* Assets.xcassets in Resources */,
+				53B88AF21E87C6A900177498 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B88AE01E87C6A900177498 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B88AEF1E87C6A900177498 /* ViewController.m in Sources */,
+				53B88AEC1E87C6A900177498 /* AppDelegate.m in Sources */,
+				53B88AE91E87C6A900177498 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53B88AF01E87C6A900177498 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B88AF11E87C6A900177498 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53B88AF51E87C6A900177498 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B88AF61E87C6A900177498 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53B88AF91E87C6A900177498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53B88AFA1E87C6A900177498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53B88AFC1E87C6A900177498 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				INFOPLIST_FILE = "OpenGLES-6-灯光/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenGLES-6---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53B88AFD1E87C6A900177498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				INFOPLIST_FILE = "OpenGLES-6-灯光/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenGLES-6---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B88ADF1E87C6A900177498 /* Build configuration list for PBXProject "OpenGLES-6-灯光" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B88AF91E87C6A900177498 /* Debug */,
+				53B88AFA1E87C6A900177498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B88AFB1E87C6A900177498 /* Build configuration list for PBXNativeTarget "OpenGLES-6-灯光" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B88AFC1E87C6A900177498 /* Debug */,
+				53B88AFD1E87C6A900177498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B88ADC1E87C6A900177498 /* Project object */;
+}
