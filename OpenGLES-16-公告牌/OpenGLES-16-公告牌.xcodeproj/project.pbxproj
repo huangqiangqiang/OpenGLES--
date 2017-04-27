@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5302DCE21EB0D72D00EAED8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DCE11EB0D72D00EAED8A /* main.m */; };
+		5302DCE51EB0D72D00EAED8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DCE41EB0D72D00EAED8A /* AppDelegate.m */; };
+		5302DCE81EB0D72D00EAED8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DCE71EB0D72D00EAED8A /* ViewController.m */; };
+		5302DCEB1EB0D72D00EAED8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5302DCE91EB0D72D00EAED8A /* Main.storyboard */; };
+		5302DCED1EB0D72D00EAED8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5302DCEC1EB0D72D00EAED8A /* Assets.xcassets */; };
+		5302DCF01EB0D72D00EAED8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5302DCEE1EB0D72D00EAED8A /* LaunchScreen.storyboard */; };
+		5302DD071EB0D80900EAED8A /* UtilityMesh+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DCFA1EB0D80900EAED8A /* UtilityMesh+viewAdditions.m */; };
+		5302DD081EB0D80900EAED8A /* UtilityMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DCFC1EB0D80900EAED8A /* UtilityMesh.m */; };
+		5302DD091EB0D80900EAED8A /* UtilityModel+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DCFE1EB0D80900EAED8A /* UtilityModel+viewAdditions.m */; };
+		5302DD0A1EB0D80900EAED8A /* UtilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DD001EB0D80900EAED8A /* UtilityModel.m */; };
+		5302DD0B1EB0D80900EAED8A /* UtilityModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DD021EB0D80900EAED8A /* UtilityModelManager.m */; };
+		5302DD0C1EB0D80900EAED8A /* UtilityTextureInfo+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DD041EB0D80900EAED8A /* UtilityTextureInfo+viewAdditions.m */; };
+		5302DD0D1EB0D80900EAED8A /* UtilityTextureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DD061EB0D80900EAED8A /* UtilityTextureInfo.m */; };
+		5302DD0F1EB0D82100EAED8A /* park.modelplist in Resources */ = {isa = PBXBuildFile; fileRef = 5302DD0E1EB0D82100EAED8A /* park.modelplist */; };
+		5302DD121EB0E18300EAED8A /* UtilityBillboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DD111EB0E18300EAED8A /* UtilityBillboardManager.m */; };
+		5302DD151EB1818300EAED8A /* UtilityBillboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DD141EB1818300EAED8A /* UtilityBillboard.m */; };
+		5302DD181EB1881E00EAED8A /* UtilityBillboardManager+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5302DD171EB1881E00EAED8A /* UtilityBillboardManager+viewAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5302DCDD1EB0D72D00EAED8A /* OpenGLES-16-公告牌.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES-16-公告牌.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5302DCE11EB0D72D00EAED8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5302DCE31EB0D72D00EAED8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5302DCE41EB0D72D00EAED8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5302DCE61EB0D72D00EAED8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5302DCE71EB0D72D00EAED8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5302DCEA1EB0D72D00EAED8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5302DCEC1EB0D72D00EAED8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5302DCEF1EB0D72D00EAED8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5302DCF11EB0D72D00EAED8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5302DCF81EB0D80900EAED8A /* AGLKAxisAllignedBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKAxisAllignedBoundingBox.h; sourceTree = "<group>"; };
+		5302DCF91EB0D80900EAED8A /* UtilityMesh+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityMesh+viewAdditions.h"; sourceTree = "<group>"; };
+		5302DCFA1EB0D80900EAED8A /* UtilityMesh+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityMesh+viewAdditions.m"; sourceTree = "<group>"; };
+		5302DCFB1EB0D80900EAED8A /* UtilityMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMesh.h; sourceTree = "<group>"; };
+		5302DCFC1EB0D80900EAED8A /* UtilityMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityMesh.m; sourceTree = "<group>"; };
+		5302DCFD1EB0D80900EAED8A /* UtilityModel+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityModel+viewAdditions.h"; sourceTree = "<group>"; };
+		5302DCFE1EB0D80900EAED8A /* UtilityModel+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityModel+viewAdditions.m"; sourceTree = "<group>"; };
+		5302DCFF1EB0D80900EAED8A /* UtilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModel.h; sourceTree = "<group>"; };
+		5302DD001EB0D80900EAED8A /* UtilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModel.m; sourceTree = "<group>"; };
+		5302DD011EB0D80900EAED8A /* UtilityModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModelManager.h; sourceTree = "<group>"; };
+		5302DD021EB0D80900EAED8A /* UtilityModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModelManager.m; sourceTree = "<group>"; };
+		5302DD031EB0D80900EAED8A /* UtilityTextureInfo+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityTextureInfo+viewAdditions.h"; sourceTree = "<group>"; };
+		5302DD041EB0D80900EAED8A /* UtilityTextureInfo+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityTextureInfo+viewAdditions.m"; sourceTree = "<group>"; };
+		5302DD051EB0D80900EAED8A /* UtilityTextureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTextureInfo.h; sourceTree = "<group>"; };
+		5302DD061EB0D80900EAED8A /* UtilityTextureInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTextureInfo.m; sourceTree = "<group>"; };
+		5302DD0E1EB0D82100EAED8A /* park.modelplist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = park.modelplist; sourceTree = "<group>"; };
+		5302DD101EB0E18300EAED8A /* UtilityBillboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityBillboardManager.h; sourceTree = "<group>"; };
+		5302DD111EB0E18300EAED8A /* UtilityBillboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityBillboardManager.m; sourceTree = "<group>"; };
+		5302DD131EB1818300EAED8A /* UtilityBillboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityBillboard.h; sourceTree = "<group>"; };
+		5302DD141EB1818300EAED8A /* UtilityBillboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityBillboard.m; sourceTree = "<group>"; };
+		5302DD161EB1881E00EAED8A /* UtilityBillboardManager+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityBillboardManager+viewAdditions.h"; sourceTree = "<group>"; };
+		5302DD171EB1881E00EAED8A /* UtilityBillboardManager+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityBillboardManager+viewAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5302DCDA1EB0D72D00EAED8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5302DCD41EB0D72D00EAED8A = {
+			isa = PBXGroup;
+			children = (
+				5302DCDF1EB0D72D00EAED8A /* OpenGLES-16-公告牌 */,
+				5302DCDE1EB0D72D00EAED8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5302DCDE1EB0D72D00EAED8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5302DCDD1EB0D72D00EAED8A /* OpenGLES-16-公告牌.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5302DCDF1EB0D72D00EAED8A /* OpenGLES-16-公告牌 */ = {
+			isa = PBXGroup;
+			children = (
+				5302DCF71EB0D80900EAED8A /* Model Loading */,
+				5302DCE31EB0D72D00EAED8A /* AppDelegate.h */,
+				5302DCE41EB0D72D00EAED8A /* AppDelegate.m */,
+				5302DCE61EB0D72D00EAED8A /* ViewController.h */,
+				5302DCE71EB0D72D00EAED8A /* ViewController.m */,
+				5302DD101EB0E18300EAED8A /* UtilityBillboardManager.h */,
+				5302DD111EB0E18300EAED8A /* UtilityBillboardManager.m */,
+				5302DD161EB1881E00EAED8A /* UtilityBillboardManager+viewAdditions.h */,
+				5302DD171EB1881E00EAED8A /* UtilityBillboardManager+viewAdditions.m */,
+				5302DD131EB1818300EAED8A /* UtilityBillboard.h */,
+				5302DD141EB1818300EAED8A /* UtilityBillboard.m */,
+				5302DD0E1EB0D82100EAED8A /* park.modelplist */,
+				5302DCE91EB0D72D00EAED8A /* Main.storyboard */,
+				5302DCEC1EB0D72D00EAED8A /* Assets.xcassets */,
+				5302DCEE1EB0D72D00EAED8A /* LaunchScreen.storyboard */,
+				5302DCF11EB0D72D00EAED8A /* Info.plist */,
+				5302DCE01EB0D72D00EAED8A /* Supporting Files */,
+			);
+			path = "OpenGLES-16-公告牌";
+			sourceTree = "<group>";
+		};
+		5302DCE01EB0D72D00EAED8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5302DCE11EB0D72D00EAED8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5302DCF71EB0D80900EAED8A /* Model Loading */ = {
+			isa = PBXGroup;
+			children = (
+				5302DCF81EB0D80900EAED8A /* AGLKAxisAllignedBoundingBox.h */,
+				5302DCF91EB0D80900EAED8A /* UtilityMesh+viewAdditions.h */,
+				5302DCFA1EB0D80900EAED8A /* UtilityMesh+viewAdditions.m */,
+				5302DCFB1EB0D80900EAED8A /* UtilityMesh.h */,
+				5302DCFC1EB0D80900EAED8A /* UtilityMesh.m */,
+				5302DCFD1EB0D80900EAED8A /* UtilityModel+viewAdditions.h */,
+				5302DCFE1EB0D80900EAED8A /* UtilityModel+viewAdditions.m */,
+				5302DCFF1EB0D80900EAED8A /* UtilityModel.h */,
+				5302DD001EB0D80900EAED8A /* UtilityModel.m */,
+				5302DD011EB0D80900EAED8A /* UtilityModelManager.h */,
+				5302DD021EB0D80900EAED8A /* UtilityModelManager.m */,
+				5302DD031EB0D80900EAED8A /* UtilityTextureInfo+viewAdditions.h */,
+				5302DD041EB0D80900EAED8A /* UtilityTextureInfo+viewAdditions.m */,
+				5302DD051EB0D80900EAED8A /* UtilityTextureInfo.h */,
+				5302DD061EB0D80900EAED8A /* UtilityTextureInfo.m */,
+			);
+			path = "Model Loading";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5302DCDC1EB0D72D00EAED8A /* OpenGLES-16-公告牌 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5302DCF41EB0D72D00EAED8A /* Build configuration list for PBXNativeTarget "OpenGLES-16-公告牌" */;
+			buildPhases = (
+				5302DCD91EB0D72D00EAED8A /* Sources */,
+				5302DCDA1EB0D72D00EAED8A /* Frameworks */,
+				5302DCDB1EB0D72D00EAED8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES-16-公告牌";
+			productName = "OpenGLES-16-公告牌";
+			productReference = 5302DCDD1EB0D72D00EAED8A /* OpenGLES-16-公告牌.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5302DCD51EB0D72D00EAED8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "黄强强";
+				TargetAttributes = {
+					5302DCDC1EB0D72D00EAED8A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CZNJZR433P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5302DCD81EB0D72D00EAED8A /* Build configuration list for PBXProject "OpenGLES-16-公告牌" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5302DCD41EB0D72D00EAED8A;
+			productRefGroup = 5302DCDE1EB0D72D00EAED8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5302DCDC1EB0D72D00EAED8A /* OpenGLES-16-公告牌 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5302DCDB1EB0D72D00EAED8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5302DD0F1EB0D82100EAED8A /* park.modelplist in Resources */,
+				5302DCF01EB0D72D00EAED8A /* LaunchScreen.storyboard in Resources */,
+				5302DCED1EB0D72D00EAED8A /* Assets.xcassets in Resources */,
+				5302DCEB1EB0D72D00EAED8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5302DCD91EB0D72D00EAED8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5302DD151EB1818300EAED8A /* UtilityBillboard.m in Sources */,
+				5302DD0B1EB0D80900EAED8A /* UtilityModelManager.m in Sources */,
+				5302DD071EB0D80900EAED8A /* UtilityMesh+viewAdditions.m in Sources */,
+				5302DD121EB0E18300EAED8A /* UtilityBillboardManager.m in Sources */,
+				5302DD091EB0D80900EAED8A /* UtilityModel+viewAdditions.m in Sources */,
+				5302DCE81EB0D72D00EAED8A /* ViewController.m in Sources */,
+				5302DCE51EB0D72D00EAED8A /* AppDelegate.m in Sources */,
+				5302DD181EB1881E00EAED8A /* UtilityBillboardManager+viewAdditions.m in Sources */,
+				5302DD081EB0D80900EAED8A /* UtilityMesh.m in Sources */,
+				5302DD0D1EB0D80900EAED8A /* UtilityTextureInfo.m in Sources */,
+				5302DD0C1EB0D80900EAED8A /* UtilityTextureInfo+viewAdditions.m in Sources */,
+				5302DCE21EB0D72D00EAED8A /* main.m in Sources */,
+				5302DD0A1EB0D80900EAED8A /* UtilityModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5302DCE91EB0D72D00EAED8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5302DCEA1EB0D72D00EAED8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5302DCEE1EB0D72D00EAED8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5302DCEF1EB0D72D00EAED8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5302DCF21EB0D72D00EAED8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5302DCF31EB0D72D00EAED8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5302DCF51EB0D72D00EAED8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				INFOPLIST_FILE = "OpenGLES-16-公告牌/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenGLES-16----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5302DCF61EB0D72D00EAED8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				INFOPLIST_FILE = "OpenGLES-16-公告牌/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenGLES-16----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5302DCD81EB0D72D00EAED8A /* Build configuration list for PBXProject "OpenGLES-16-公告牌" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5302DCF21EB0D72D00EAED8A /* Debug */,
+				5302DCF31EB0D72D00EAED8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5302DCF41EB0D72D00EAED8A /* Build configuration list for PBXNativeTarget "OpenGLES-16-公告牌" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5302DCF51EB0D72D00EAED8A /* Debug */,
+				5302DCF61EB0D72D00EAED8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5302DCD51EB0D72D00EAED8A /* Project object */;
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2UG-ft-MtW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GLKit View Controller-->
+        <scene sceneID="jr9-Hh-Yto">
+            <objects>
+                <glkViewController preferredFramesPerSecond="30" id="2UG-ft-MtW" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="10L-Na-bKP"/>
+                        <viewControllerLayoutGuide type="bottom" id="KBu-RA-8oo"/>
+                    </layoutGuides>
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" id="Qtq-PC-fU3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZDs-jO-bMc">
+                                <rect key="frame" x="48" y="51" width="51" height="31"/>
+                                <connections>
+                                    <action selector="takeShouldCullFrom:" destination="2UG-ft-MtW" eventType="valueChanged" id="nAx-9T-9Ox"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NAT-Xg-e5C">
+                                <rect key="frame" x="48" y="104" width="98" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Q9l-MX-pXR"/>
+                                    <constraint firstAttribute="height" constant="44" id="nN6-bR-wnG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Rb8-iH-6fG">
+                                <rect key="frame" x="46" y="606" width="286" height="31"/>
+                                <connections>
+                                    <action selector="changeEyePosition:" destination="2UG-ft-MtW" eventType="valueChanged" id="SpA-Qw-7FK"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rb8-iH-6fG" secondAttribute="trailing" constant="30" id="Kbw-44-12o"/>
+                            <constraint firstItem="ZDs-jO-bMc" firstAttribute="top" secondItem="10L-Na-bKP" secondAttribute="bottom" constant="30" id="PjC-GK-MHT"/>
+                            <constraint firstItem="KBu-RA-8oo" firstAttribute="top" secondItem="Rb8-iH-6fG" secondAttribute="bottom" constant="30" id="TRH-7Y-67f"/>
+                            <constraint firstItem="NAT-Xg-e5C" firstAttribute="leading" secondItem="Qtq-PC-fU3" secondAttribute="leadingMargin" constant="30" id="ZG9-uw-vYb"/>
+                            <constraint firstItem="NAT-Xg-e5C" firstAttribute="top" secondItem="ZDs-jO-bMc" secondAttribute="bottom" constant="20" id="cCF-tQ-XBa"/>
+                            <constraint firstItem="Rb8-iH-6fG" firstAttribute="leading" secondItem="Qtq-PC-fU3" secondAttribute="leadingMargin" constant="30" id="e5Q-Cm-bd4"/>
+                            <constraint firstItem="ZDs-jO-bMc" firstAttribute="leading" secondItem="Qtq-PC-fU3" secondAttribute="leadingMargin" constant="30" id="ytg-SZ-Ne4"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="delegate" destination="2UG-ft-MtW" id="nlz-eu-oDH"/>
+                        </connections>
+                    </glkView>
+                    <connections>
+                        <outlet property="ftpLabel" destination="NAT-Xg-e5C" id="eYa-A6-8lo"/>
+                        <outlet property="slider" destination="Rb8-iH-6fG" id="ifB-Q1-Vm5"/>
+                    </connections>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JP7-XG-Mpc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="580" y="210.94452773613196"/>
+        </scene>
+    </scenes>
+</document>
