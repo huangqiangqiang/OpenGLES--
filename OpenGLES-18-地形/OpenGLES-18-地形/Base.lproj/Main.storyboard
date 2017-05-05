@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dCj-sX-YT2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--GLKit View Controller-->
+        <scene sceneID="kN4-Gt-bLw">
+            <objects>
+                <glkViewController preferredFramesPerSecond="30" id="dCj-sX-YT2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dXX-iU-VR8"/>
+                        <viewControllerLayoutGuide type="bottom" id="BpB-up-lS9"/>
+                    </layoutGuides>
+                    <glkView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" enableSetNeedsDisplay="NO" id="UE5-of-UV6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncD-aK-9fC">
+                                <rect key="frame" x="25" y="28" width="49" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gwl-mG-Txh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ncD-aK-9fC" firstAttribute="top" secondItem="dXX-iU-VR8" secondAttribute="bottom" constant="20" id="OAe-0v-fJe"/>
+                            <constraint firstItem="ncD-aK-9fC" firstAttribute="leading" secondItem="UE5-of-UV6" secondAttribute="leadingMargin" constant="20" id="Od3-hp-Fo1"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="delegate" destination="dCj-sX-YT2" id="l7l-f1-jJK"/>
+                        </connections>
+                    </glkView>
+                    <connections>
+                        <outlet property="fpsField" destination="ncD-aK-9fC" id="E2g-rI-cW1"/>
+                    </connections>
+                </glkViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hXO-JU-la9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="309.60000000000002" y="-250.52473763118442"/>
+        </scene>
+    </scenes>
+</document>

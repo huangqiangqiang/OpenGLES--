@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5354ACF11EBB213800F488DD /* UtilityPickTerrainEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 5354ACF01EBB213800F488DD /* UtilityPickTerrainEffect.m */; };
+		53B999401EBAD1ED002A373E /* TETerrain+modelAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B9993F1EBAD1ED002A373E /* TETerrain+modelAdditions.m */; };
+		53E0945B1EB9CFD50014CF58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E0945A1EB9CFD50014CF58 /* main.m */; };
+		53E0945E1EB9CFD50014CF58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E0945D1EB9CFD50014CF58 /* AppDelegate.m */; };
+		53E094611EB9CFD50014CF58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094601EB9CFD50014CF58 /* ViewController.m */; };
+		53E094641EB9CFD50014CF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E094621EB9CFD50014CF58 /* Main.storyboard */; };
+		53E094661EB9CFD50014CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E094651EB9CFD50014CF58 /* Assets.xcassets */; };
+		53E094691EB9CFD50014CF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E094671EB9CFD50014CF58 /* LaunchScreen.storyboard */; };
+		53E094811EB9D0170014CF58 /* UtilityPickTerrainShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 53E094771EB9D0170014CF58 /* UtilityPickTerrainShader.fsh */; };
+		53E094821EB9D0170014CF58 /* UtilityPickTerrainShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 53E094781EB9D0170014CF58 /* UtilityPickTerrainShader.vsh */; };
+		53E094831EB9D0170014CF58 /* UtilityTerrainShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 53E094791EB9D0170014CF58 /* UtilityTerrainShader.fsh */; };
+		53E094841EB9D0170014CF58 /* UtilityTerrainShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 53E0947A1EB9D0170014CF58 /* UtilityTerrainShader.vsh */; };
+		53E094971EB9D0440014CF58 /* AGLKFrustum.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094861EB9D0440014CF58 /* AGLKFrustum.m */; };
+		53E094981EB9D0440014CF58 /* UtilityMesh+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E0948A1EB9D0440014CF58 /* UtilityMesh+viewAdditions.m */; };
+		53E094991EB9D0440014CF58 /* UtilityMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E0948C1EB9D0440014CF58 /* UtilityMesh.m */; };
+		53E0949A1EB9D0440014CF58 /* UtilityModel+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E0948E1EB9D0440014CF58 /* UtilityModel+viewAdditions.m */; };
+		53E0949B1EB9D0440014CF58 /* UtilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094901EB9D0440014CF58 /* UtilityModel.m */; };
+		53E0949C1EB9D0440014CF58 /* UtilityModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094921EB9D0440014CF58 /* UtilityModelManager.m */; };
+		53E0949D1EB9D0440014CF58 /* UtilityTextureInfo+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094941EB9D0440014CF58 /* UtilityTextureInfo+viewAdditions.m */; };
+		53E0949E1EB9D0440014CF58 /* UtilityTextureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094961EB9D0440014CF58 /* UtilityTextureInfo.m */; };
+		53E094A61EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53E094A01EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodeld */; };
+		53E094AA1EB9D6270014CF58 /* trail.binary in Resources */ = {isa = PBXBuildFile; fileRef = 53E094A91EB9D6270014CF58 /* trail.binary */; };
+		53E094B41EB9D92E0014CF58 /* TEModelPlacement.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094AF1EB9D92E0014CF58 /* TEModelPlacement.m */; };
+		53E094B51EB9D92E0014CF58 /* TETerrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094B11EB9D92E0014CF58 /* TETerrain.m */; };
+		53E094B61EB9D92E0014CF58 /* TETerrain+viewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094B31EB9D92E0014CF58 /* TETerrain+viewAdditions.m */; };
+		53E094B91EB9D9940014CF58 /* TETerrainTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094B81EB9D9940014CF58 /* TETerrainTile.m */; };
+		53E094BC1EB9DFF80014CF58 /* UtilityCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094BB1EB9DFF80014CF58 /* UtilityCamera.m */; };
+		53E094BF1EB9E3E60014CF58 /* UtilityEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094BE1EB9E3E60014CF58 /* UtilityEffect.m */; };
+		53E094C21EB9E4000014CF58 /* UtilityTerrainEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E094C11EB9E4000014CF58 /* UtilityTerrainEffect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5354ACEF1EBB213800F488DD /* UtilityPickTerrainEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityPickTerrainEffect.h; sourceTree = "<group>"; };
+		5354ACF01EBB213800F488DD /* UtilityPickTerrainEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityPickTerrainEffect.m; sourceTree = "<group>"; };
+		53B9993E1EBAD1ED002A373E /* TETerrain+modelAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TETerrain+modelAdditions.h"; sourceTree = "<group>"; };
+		53B9993F1EBAD1ED002A373E /* TETerrain+modelAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TETerrain+modelAdditions.m"; sourceTree = "<group>"; };
+		53E094561EB9CFD50014CF58 /* OpenGLES-18-地形.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGLES-18-地形.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E0945A1EB9CFD50014CF58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53E0945C1EB9CFD50014CF58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53E0945D1EB9CFD50014CF58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53E0945F1EB9CFD50014CF58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53E094601EB9CFD50014CF58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53E094631EB9CFD50014CF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53E094651EB9CFD50014CF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53E094681EB9CFD50014CF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53E0946A1EB9CFD50014CF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E094771EB9D0170014CF58 /* UtilityPickTerrainShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityPickTerrainShader.fsh; sourceTree = "<group>"; };
+		53E094781EB9D0170014CF58 /* UtilityPickTerrainShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityPickTerrainShader.vsh; sourceTree = "<group>"; };
+		53E094791EB9D0170014CF58 /* UtilityTerrainShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityTerrainShader.fsh; sourceTree = "<group>"; };
+		53E0947A1EB9D0170014CF58 /* UtilityTerrainShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = UtilityTerrainShader.vsh; sourceTree = "<group>"; };
+		53E094851EB9D0440014CF58 /* AGLKFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKFrustum.h; sourceTree = "<group>"; };
+		53E094861EB9D0440014CF58 /* AGLKFrustum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLKFrustum.m; sourceTree = "<group>"; };
+		53E094881EB9D0440014CF58 /* AGLKAxisAllignedBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLKAxisAllignedBoundingBox.h; sourceTree = "<group>"; };
+		53E094891EB9D0440014CF58 /* UtilityMesh+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityMesh+viewAdditions.h"; sourceTree = "<group>"; };
+		53E0948A1EB9D0440014CF58 /* UtilityMesh+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityMesh+viewAdditions.m"; sourceTree = "<group>"; };
+		53E0948B1EB9D0440014CF58 /* UtilityMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityMesh.h; sourceTree = "<group>"; };
+		53E0948C1EB9D0440014CF58 /* UtilityMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityMesh.m; sourceTree = "<group>"; };
+		53E0948D1EB9D0440014CF58 /* UtilityModel+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityModel+viewAdditions.h"; sourceTree = "<group>"; };
+		53E0948E1EB9D0440014CF58 /* UtilityModel+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityModel+viewAdditions.m"; sourceTree = "<group>"; };
+		53E0948F1EB9D0440014CF58 /* UtilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModel.h; sourceTree = "<group>"; };
+		53E094901EB9D0440014CF58 /* UtilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModel.m; sourceTree = "<group>"; };
+		53E094911EB9D0440014CF58 /* UtilityModelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityModelManager.h; sourceTree = "<group>"; };
+		53E094921EB9D0440014CF58 /* UtilityModelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityModelManager.m; sourceTree = "<group>"; };
+		53E094931EB9D0440014CF58 /* UtilityTextureInfo+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UtilityTextureInfo+viewAdditions.h"; sourceTree = "<group>"; };
+		53E094941EB9D0440014CF58 /* UtilityTextureInfo+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UtilityTextureInfo+viewAdditions.m"; sourceTree = "<group>"; };
+		53E094951EB9D0440014CF58 /* UtilityTextureInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTextureInfo.h; sourceTree = "<group>"; };
+		53E094961EB9D0440014CF58 /* UtilityTextureInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTextureInfo.m; sourceTree = "<group>"; };
+		53E094A11EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenGLES_Ch10_1.xcdatamodel; sourceTree = "<group>"; };
+		53E094A91EB9D6270014CF58 /* trail.binary */ = {isa = PBXFileReference; lastKnownFileType = file; path = trail.binary; sourceTree = "<group>"; };
+		53E094AE1EB9D92E0014CF58 /* TEModelPlacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEModelPlacement.h; sourceTree = "<group>"; };
+		53E094AF1EB9D92E0014CF58 /* TEModelPlacement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEModelPlacement.m; sourceTree = "<group>"; };
+		53E094B01EB9D92E0014CF58 /* TETerrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETerrain.h; sourceTree = "<group>"; };
+		53E094B11EB9D92E0014CF58 /* TETerrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETerrain.m; sourceTree = "<group>"; };
+		53E094B21EB9D92E0014CF58 /* TETerrain+viewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TETerrain+viewAdditions.h"; sourceTree = "<group>"; };
+		53E094B31EB9D92E0014CF58 /* TETerrain+viewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TETerrain+viewAdditions.m"; sourceTree = "<group>"; };
+		53E094B71EB9D9940014CF58 /* TETerrainTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TETerrainTile.h; sourceTree = "<group>"; };
+		53E094B81EB9D9940014CF58 /* TETerrainTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TETerrainTile.m; sourceTree = "<group>"; };
+		53E094BA1EB9DFF80014CF58 /* UtilityCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityCamera.h; sourceTree = "<group>"; };
+		53E094BB1EB9DFF80014CF58 /* UtilityCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityCamera.m; sourceTree = "<group>"; };
+		53E094BD1EB9E3E60014CF58 /* UtilityEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityEffect.h; sourceTree = "<group>"; };
+		53E094BE1EB9E3E60014CF58 /* UtilityEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityEffect.m; sourceTree = "<group>"; };
+		53E094C01EB9E4000014CF58 /* UtilityTerrainEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityTerrainEffect.h; sourceTree = "<group>"; };
+		53E094C11EB9E4000014CF58 /* UtilityTerrainEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityTerrainEffect.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E094531EB9CFD50014CF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E0944D1EB9CFD50014CF58 = {
+			isa = PBXGroup;
+			children = (
+				53E094581EB9CFD50014CF58 /* OpenGLES-18-地形 */,
+				53E094571EB9CFD50014CF58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E094571EB9CFD50014CF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E094561EB9CFD50014CF58 /* OpenGLES-18-地形.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E094581EB9CFD50014CF58 /* OpenGLES-18-地形 */ = {
+			isa = PBXGroup;
+			children = (
+				53E094871EB9D0440014CF58 /* Model Loading */,
+				53E094701EB9D0170014CF58 /* Shaders */,
+				53E0945C1EB9CFD50014CF58 /* AppDelegate.h */,
+				53E0945D1EB9CFD50014CF58 /* AppDelegate.m */,
+				53E0945F1EB9CFD50014CF58 /* ViewController.h */,
+				53E094601EB9CFD50014CF58 /* ViewController.m */,
+				53E0949F1EB9D1E40014CF58 /* Generated */,
+				53E094851EB9D0440014CF58 /* AGLKFrustum.h */,
+				53E094861EB9D0440014CF58 /* AGLKFrustum.m */,
+				53E094621EB9CFD50014CF58 /* Main.storyboard */,
+				53E094651EB9CFD50014CF58 /* Assets.xcassets */,
+				53E094671EB9CFD50014CF58 /* LaunchScreen.storyboard */,
+				53E0946A1EB9CFD50014CF58 /* Info.plist */,
+				53E094591EB9CFD50014CF58 /* Supporting Files */,
+			);
+			path = "OpenGLES-18-地形";
+			sourceTree = "<group>";
+		};
+		53E094591EB9CFD50014CF58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E0945A1EB9CFD50014CF58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53E094701EB9D0170014CF58 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				53E094771EB9D0170014CF58 /* UtilityPickTerrainShader.fsh */,
+				53E094781EB9D0170014CF58 /* UtilityPickTerrainShader.vsh */,
+				53E094791EB9D0170014CF58 /* UtilityTerrainShader.fsh */,
+				53E0947A1EB9D0170014CF58 /* UtilityTerrainShader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		53E094871EB9D0440014CF58 /* Model Loading */ = {
+			isa = PBXGroup;
+			children = (
+				53E094881EB9D0440014CF58 /* AGLKAxisAllignedBoundingBox.h */,
+				53E094891EB9D0440014CF58 /* UtilityMesh+viewAdditions.h */,
+				53E0948A1EB9D0440014CF58 /* UtilityMesh+viewAdditions.m */,
+				53E0948B1EB9D0440014CF58 /* UtilityMesh.h */,
+				53E0948C1EB9D0440014CF58 /* UtilityMesh.m */,
+				53E0948D1EB9D0440014CF58 /* UtilityModel+viewAdditions.h */,
+				53E0948E1EB9D0440014CF58 /* UtilityModel+viewAdditions.m */,
+				53E0948F1EB9D0440014CF58 /* UtilityModel.h */,
+				53E094901EB9D0440014CF58 /* UtilityModel.m */,
+				53E094911EB9D0440014CF58 /* UtilityModelManager.h */,
+				53E094921EB9D0440014CF58 /* UtilityModelManager.m */,
+				53E094931EB9D0440014CF58 /* UtilityTextureInfo+viewAdditions.h */,
+				53E094941EB9D0440014CF58 /* UtilityTextureInfo+viewAdditions.m */,
+				53E094951EB9D0440014CF58 /* UtilityTextureInfo.h */,
+				53E094961EB9D0440014CF58 /* UtilityTextureInfo.m */,
+				53E094AE1EB9D92E0014CF58 /* TEModelPlacement.h */,
+				53E094AF1EB9D92E0014CF58 /* TEModelPlacement.m */,
+				53E094B01EB9D92E0014CF58 /* TETerrain.h */,
+				53E094B11EB9D92E0014CF58 /* TETerrain.m */,
+				53E094B71EB9D9940014CF58 /* TETerrainTile.h */,
+				53E094B81EB9D9940014CF58 /* TETerrainTile.m */,
+				53E094B21EB9D92E0014CF58 /* TETerrain+viewAdditions.h */,
+				53E094B31EB9D92E0014CF58 /* TETerrain+viewAdditions.m */,
+				53B9993E1EBAD1ED002A373E /* TETerrain+modelAdditions.h */,
+				53B9993F1EBAD1ED002A373E /* TETerrain+modelAdditions.m */,
+				53E094BA1EB9DFF80014CF58 /* UtilityCamera.h */,
+				53E094BB1EB9DFF80014CF58 /* UtilityCamera.m */,
+				53E094BD1EB9E3E60014CF58 /* UtilityEffect.h */,
+				53E094BE1EB9E3E60014CF58 /* UtilityEffect.m */,
+				53E094C01EB9E4000014CF58 /* UtilityTerrainEffect.h */,
+				53E094C11EB9E4000014CF58 /* UtilityTerrainEffect.m */,
+				5354ACEF1EBB213800F488DD /* UtilityPickTerrainEffect.h */,
+				5354ACF01EBB213800F488DD /* UtilityPickTerrainEffect.m */,
+			);
+			path = "Model Loading";
+			sourceTree = "<group>";
+		};
+		53E0949F1EB9D1E40014CF58 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				53E094A91EB9D6270014CF58 /* trail.binary */,
+				53E094A01EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodeld */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E094551EB9CFD50014CF58 /* OpenGLES-18-地形 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E0946D1EB9CFD50014CF58 /* Build configuration list for PBXNativeTarget "OpenGLES-18-地形" */;
+			buildPhases = (
+				53E094521EB9CFD50014CF58 /* Sources */,
+				53E094531EB9CFD50014CF58 /* Frameworks */,
+				53E094541EB9CFD50014CF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGLES-18-地形";
+			productName = "OpenGLES-18-地形";
+			productReference = 53E094561EB9CFD50014CF58 /* OpenGLES-18-地形.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E0944E1EB9CFD50014CF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "黄强强";
+				TargetAttributes = {
+					53E094551EB9CFD50014CF58 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = CZNJZR433P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53E094511EB9CFD50014CF58 /* Build configuration list for PBXProject "OpenGLES-18-地形" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53E0944D1EB9CFD50014CF58;
+			productRefGroup = 53E094571EB9CFD50014CF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E094551EB9CFD50014CF58 /* OpenGLES-18-地形 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E094541EB9CFD50014CF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E094821EB9D0170014CF58 /* UtilityPickTerrainShader.vsh in Resources */,
+				53E094841EB9D0170014CF58 /* UtilityTerrainShader.vsh in Resources */,
+				53E094691EB9CFD50014CF58 /* LaunchScreen.storyboard in Resources */,
+				53E094831EB9D0170014CF58 /* UtilityTerrainShader.fsh in Resources */,
+				53E094811EB9D0170014CF58 /* UtilityPickTerrainShader.fsh in Resources */,
+				53E094661EB9CFD50014CF58 /* Assets.xcassets in Resources */,
+				53E094AA1EB9D6270014CF58 /* trail.binary in Resources */,
+				53E094641EB9CFD50014CF58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E094521EB9CFD50014CF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E094B51EB9D92E0014CF58 /* TETerrain.m in Sources */,
+				53E094611EB9CFD50014CF58 /* ViewController.m in Sources */,
+				53E094C21EB9E4000014CF58 /* UtilityTerrainEffect.m in Sources */,
+				53E094971EB9D0440014CF58 /* AGLKFrustum.m in Sources */,
+				53E0949C1EB9D0440014CF58 /* UtilityModelManager.m in Sources */,
+				53E094981EB9D0440014CF58 /* UtilityMesh+viewAdditions.m in Sources */,
+				53E094A61EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodeld in Sources */,
+				53E094B91EB9D9940014CF58 /* TETerrainTile.m in Sources */,
+				53E0949E1EB9D0440014CF58 /* UtilityTextureInfo.m in Sources */,
+				53E094B61EB9D92E0014CF58 /* TETerrain+viewAdditions.m in Sources */,
+				53E094B41EB9D92E0014CF58 /* TEModelPlacement.m in Sources */,
+				5354ACF11EBB213800F488DD /* UtilityPickTerrainEffect.m in Sources */,
+				53E0945E1EB9CFD50014CF58 /* AppDelegate.m in Sources */,
+				53E0949D1EB9D0440014CF58 /* UtilityTextureInfo+viewAdditions.m in Sources */,
+				53E0945B1EB9CFD50014CF58 /* main.m in Sources */,
+				53B999401EBAD1ED002A373E /* TETerrain+modelAdditions.m in Sources */,
+				53E094BC1EB9DFF80014CF58 /* UtilityCamera.m in Sources */,
+				53E0949A1EB9D0440014CF58 /* UtilityModel+viewAdditions.m in Sources */,
+				53E094BF1EB9E3E60014CF58 /* UtilityEffect.m in Sources */,
+				53E0949B1EB9D0440014CF58 /* UtilityModel.m in Sources */,
+				53E094991EB9D0440014CF58 /* UtilityMesh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53E094621EB9CFD50014CF58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E094631EB9CFD50014CF58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53E094671EB9CFD50014CF58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E094681EB9CFD50014CF58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E0946B1EB9CFD50014CF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53E0946C1EB9CFD50014CF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53E0946E1EB9CFD50014CF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				INFOPLIST_FILE = "OpenGLES-18-地形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenGLES-18---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53E0946F1EB9CFD50014CF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZNJZR433P;
+				INFOPLIST_FILE = "OpenGLES-18-地形/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huangqiangqiang.OpenGLES-18---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E094511EB9CFD50014CF58 /* Build configuration list for PBXProject "OpenGLES-18-地形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E0946B1EB9CFD50014CF58 /* Debug */,
+				53E0946C1EB9CFD50014CF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E0946D1EB9CFD50014CF58 /* Build configuration list for PBXNativeTarget "OpenGLES-18-地形" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E0946E1EB9CFD50014CF58 /* Debug */,
+				53E0946F1EB9CFD50014CF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53E094A01EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53E094A11EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodel */,
+			);
+			currentVersion = 53E094A11EB9D1E40014CF58 /* OpenGLES_Ch10_1.xcdatamodel */;
+			path = OpenGLES_Ch10_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53E0944E1EB9CFD50014CF58 /* Project object */;
+}
